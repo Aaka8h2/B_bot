@@ -14,7 +14,7 @@ import threading
 stopuser = {}
 token = '7886528180:AAFLd7UYfCBDCwHkBOmLewsItCBasnj1was'#token
 bot=telebot.TeleBot(token,parse_mode="HTML")
-admin= 5983253591
+admin= '5983253591'
 f = Faker()
 name = f.name()
 street = f.address()
