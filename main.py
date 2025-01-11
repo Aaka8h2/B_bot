@@ -161,7 +161,7 @@ def start(message):
 			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/aaka8h")
 			keyboard.add(contact_button)
 			random_number = random.randint(2, 7)
-			photo_url = f'https://t.me/chitngexxxxxxx/{random_number}'
+			photo_url = f'https://t.me/phtors/{random_number}'
 			bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption=f'''
 ┏━━━━━━━━━━━━━━━━━⍟			
 ┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗗𝗲𝗮𝗿 -> {name} ⚆
@@ -178,7 +178,7 @@ def start(message):
 		keyboard.add(contact_button)
 		username = message.from_user.first_name
 		random_number = random.randint(2, 7)
-		photo_url = f'https://t.me/chitngexxxxxxx/{random_number}'
+		photo_url = f'https://t.me/phtors/{random_number}'
 		bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption=f'''<strong>
 ┏━━━━━━━━━━━━━━━━━⍟		
 ┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 -> {name}
